@@ -1,0 +1,721 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  color: #fff;
+
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+}
+
+/* 00000000000000000000000000 Header Start 00000000000000000000000000000000000 */
+
+header {
+  height: fit-content;
+  width: 100%;
+  background: no-repeat url(istockphoto-854565540-612x612.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  padding: 0 3%;
+}
+
+/* 0000000000000000000000000000000000000000000000000000000000000 */
+
+nav {
+  height: 8%;
+  padding-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: clamp(0.3rem, 1.17vw, 8rem);
+  font-weight: 600;
+}
+
+.nav-btn {
+  width: 28%;
+  display: flex;
+  justify-content: space-between;
+  a {
+    text-decoration: none;
+    font-size: clamp(0.3rem, 1.3vw, 8rem);
+    font-weight: 500;
+  }
+}
+
+.nav-a {
+  text-decoration: none;
+  font-size: clamp(0.3rem, 1.1vw, 8rem);
+  font-weight: 500;
+  background: rgb(158, 1, 1);
+  padding: 1%;
+  border-radius: 4px;
+}
+
+/* 0000000000000000000000000000000000000000000000000000000000000 */
+
+.head-div {
+  height: clamp(5vh, 46vw, 100vh);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head-div-text {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: clamp(0.3rem, 3.65vw, 8rem);
+  }
+
+  p {
+    font-size: clamp(0.3rem, 1.75vw, 8rem);
+    margin-top: 2%;
+  }
+
+  .head-book-btn {
+    text-decoration: none;
+    font-size: clamp(0.3rem, 1.17vw, 8rem);
+    font-weight: 500;
+    background: rgb(158, 1, 1);
+    padding: 2% 6%;
+    border-radius: 3px;
+    width: fit-content;
+    margin-top: 2%;
+  }
+}
+
+.head-div img {
+  height: auto;
+  width: clamp(0.3rem, 25vw, 20rem);
+}
+
+/* 00000000000000000000000000 Header End 00000000000000000000000000000000000 */
+
+/* 00000000000000000000000000 Chef Special 000000000000000000000000000000000 */
+
+.chef-special {
+  height: fit-content;
+  width: 100%;
+  background: #fce9e1;
+  padding: 2% 3% 6% 3%;
+}
+
+.chef-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    color: #000;
+    font-size: clamp(0.3rem, 2.8vw, 8rem);
+  }
+
+  p {
+    color: #000;
+    text-align: center;
+    font-size: clamp(0.3rem, 1.2vw, 8rem);
+  }
+}
+
+.special-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  div {
+    border-radius: clamp(0.3rem, 2vw, 8rem);
+    background-size: cover;
+    background-position: center;
+
+    padding: 2%;
+    margin-top: 2%;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.274);
+  }
+}
+
+.seafood {
+  width: 100%;
+  height: clamp(5vh, 35.2vw, 80vh);
+  background: url(istockphoto-514262878-612x612.jpg);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    font-size: clamp(0.3rem, 4.7vw, 10rem);
+  }
+
+  p {
+    font-size: clamp(0.3rem, 1.4vw, 8rem);
+  }
+
+  a {
+    text-decoration: none;
+    font-size: clamp(0.3rem, 1.17vw, 8rem);
+    font-weight: 500;
+    background: #9e0101;
+    padding: 1% 3%;
+    border-radius: 5px;
+    width: fit-content;
+    margin-top: 1%;
+  }
+}
+
+.lob-beef {
+  width: 49%;
+  height: clamp(5vh, 23.4vw, 80vh);
+  background: no-repeat url(istockphoto-1409702875-612x612.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-blend-mode: multiply;
+
+  h1 {
+    font-size: clamp(0.3rem, 1.8vw, 10rem);
+  }
+
+  p {
+    font-size: clamp(0.3rem, 1.2vw, 10rem);
+  }
+}
+
+.sp-bug {
+  background: no-repeat url(istockphotobeefburger.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+@media (max-width: 760px) {
+  .lob-beef {
+    width: 100%;
+    height: clamp(5vh, 35.2vw, 80vh);
+
+    h1 {
+      font-size: clamp(0.3rem, 2.8vw, 10rem);
+    }
+
+    p {
+      font-size: clamp(0.3rem, 2.2vw, 10rem);
+    }
+  }
+}
+
+/* 00000000000000000000000000 Chef Special End 00000000000000000000000000000 */
+
+/* 00000000000000000000000000 Our Suggestions 000000000000000000000000000000 */
+
+.our-sugg {
+  height: fit-content;
+  width: 100%;
+  background: #fce9e1;
+  padding: 0 3% 3% 3%;
+}
+
+.sugg-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3%;
+
+  h1 {
+    color: #000;
+    font-size: clamp(0.3rem, 2.8vw, 8rem);
+  }
+
+  p {
+    color: #000;
+    text-align: center;
+    font-size: clamp(0.3rem, 1.2vw, 8rem);
+  }
+}
+
+.sugg-div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3%;
+
+  div {
+    border-radius: clamp(0.3rem, 1.8vw, 5rem);
+    width: 32%;
+    height: clamp(2vh, 33vw, 80vh);
+    padding: 1%;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.274);
+  }
+}
+
+.sugg-div div {
+  img {
+    width: 100%;
+    border-radius: clamp(0.3rem, 1.5vw, 5rem);
+    height: 60%;
+  }
+
+  h1 {
+    color: #000;
+    font-size: clamp(0.3rem, 1.8vw, 5rem);
+    text-align: center;
+    padding: 3% 0;
+    font-weight: 600;
+  }
+
+  p {
+    color: #000;
+    text-align: center;
+    font-size: clamp(0.3rem, 1.2vw, 5rem);
+  }
+}
+
+.our-cen-div {
+  background: #fccab4;
+}
+
+@media (max-width: 750px) {
+  .sugg-head {
+    h1 {
+      font-size: clamp(0.3rem, 4vw, 8rem);
+    }
+
+    p {
+      font-size: clamp(0.3rem, 2.2vw, 8rem);
+    }
+  }
+
+  .sugg-div {
+    flex-direction: column;
+    align-items: center;
+
+    div {
+      padding: 2%;
+      width: clamp(2rem, 60vw, 90rem);
+      margin-top: 3%;
+      height: clamp(2vh, 60vw, 80vh);
+    }
+  }
+
+  .sugg-div div {
+    h1 {
+      color: #000;
+      font-size: clamp(0.3rem, 3.8vw, 5rem);
+      text-align: center;
+      padding: 3% 0;
+      font-weight: 600;
+    }
+
+    p {
+      color: #000;
+      text-align: center;
+      font-size: clamp(0.3rem, 2.8vw, 5rem);
+    }
+  }
+}
+
+/* 00000000000000000000000000 Our Suggestions End 00000000000000000000000000 */
+
+/* 00000000000000000000000000 Signatures Dishes 0000000000000000000000000000 */
+
+.signa {
+  height: fit-content;
+  width: 100%;
+  background: #fce9e1;
+  padding: 0 3% 3% 3%;
+}
+
+.signa-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3%;
+
+  h1 {
+    color: #000;
+    font-size: clamp(0.3rem, 2.8vw, 8rem);
+  }
+
+  p {
+    color: #000;
+    text-align: center;
+    font-size: clamp(0.3rem, 1.2vw, 8rem);
+  }
+}
+
+.signa-div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3%;
+
+  div {
+    border-radius: clamp(0.3rem, 1.8vw, 5rem);
+    width: 32%;
+    height: clamp(2vh, 33vw, 80vh);
+    padding: 1%;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.274);
+  }
+}
+
+.signa-div div {
+  img {
+    width: 100%;
+    border-radius: clamp(0.3rem, 1.5vw, 5rem);
+    height: 60%;
+  }
+
+  h1 {
+    color: #000;
+    font-size: clamp(0.3rem, 1.8vw, 5rem);
+    text-align: center;
+    padding: 3% 0;
+    font-weight: 600;
+  }
+
+  p {
+    color: #000;
+    text-align: center;
+    font-size: clamp(0.3rem, 1.2vw, 5rem);
+  }
+}
+
+.sig-mid-div {
+  background: #fccab4;
+}
+
+@media (max-width: 750px) {
+  .signa-head {
+    h1 {
+      font-size: clamp(0.3rem, 4vw, 8rem);
+    }
+
+    p {
+      font-size: clamp(0.3rem, 2.2vw, 8rem);
+    }
+  }
+
+  .signa-div {
+    flex-direction: column;
+    align-items: center;
+
+    div {
+      padding: 2%;
+      width: clamp(2rem, 60vw, 90rem);
+      margin-top: 3%;
+      height: clamp(2vh, 70vw, 80vh);
+    }
+  }
+
+  .signa-div div {
+    h1 {
+      color: #000;
+      font-size: clamp(0.3rem, 3.8vw, 5rem);
+      text-align: center;
+      padding: 3% 0;
+      font-weight: 600;
+    }
+
+    p {
+      color: #000;
+      text-align: center;
+      font-size: clamp(0.3rem, 2.8vw, 5rem);
+    }
+  }
+}
+
+/* 00000000000000000000000000 Signatures Dishes End 000000000000000000000000 */
+
+/* 00000000000000000000000000 Starters Start 0000000000000000000000000000000 */
+
+.starter {
+  height: fit-content;
+  width: 100%;
+  background: #fccab4;
+  padding: 3% 3%;
+}
+
+.start-head {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3%;
+
+  h1 {
+    color: #000;
+    font-size: clamp(0.3rem, 2.8vw, 8rem);
+  }
+
+  p {
+    color: #000;
+    font-size: clamp(0.3rem, 1.2vw, 8rem);
+  }
+}
+
+.start-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-evenly;
+  gap: 3px;
+}
+
+.start-div div {
+  border: 1px solid black;
+
+  border-radius: clamp(0.5rem, 2vw, 10rem);
+  height: clamp(5rem, 21.2vw, 50rem);
+  width: clamp(15rem, 30vw, 25.3rem);
+  margin-bottom: 2%;
+  padding: 2%;
+
+  background-position: center;
+  background-size: cover;
+
+  h1 {
+    font-size: clamp(0.5rem, 1.75vw, 8rem);
+    color: #ffffff;
+  }
+}
+
+.start-f {
+  background: no-repeat
+    url(istockphoto-172729119-612x612Cheesy\ Garlic\ Bread\ with\ Herb\ Butter.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+.start-ss {
+  background: no-repeat url(istockphoto-1418056435-612x612.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+.start-t {
+  background: no-repeat url(istockphoto-183523810-612x612.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+.start-fo {
+  background: no-repeat url(istockphoto-1397342677-612x612.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+.start-fi {
+  background: no-repeat url(istockphoto-465003484-612x612.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+.start-s {
+  background: no-repeat url(istockphoto-2179969107-612x612.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+@media (max-width: 800px) {
+  .start-head {
+    h1 {
+      font-size: clamp(0.3rem, 4vw, 8rem);
+    }
+
+    p {
+      font-size: clamp(0.3rem, 2.2vw, 8rem);
+    }
+  }
+
+  .start-div div {
+    height: clamp(5rem, 31.2vw, 50rem);
+    width: 45%;
+
+    h1 {
+      font-size: clamp(0.5rem, 2.75vw, 8rem);
+    }
+  }
+}
+
+/* 00000000000000000000000000 Starter End 0000000000000000000000000000000000 */
+
+/* 00000000000000000000000000 About Us Start 0000000000000000000000000000000 */
+
+.about {
+  height: fit-content;
+  width: 100%;
+
+  background: #fccab4;
+  padding: 3% 3%;
+}
+
+.about-cont {
+  width: 100%;
+  height: clamp(5vh, 35vw, 100vh);
+  background-color: #6e0c0c;
+  border-radius: clamp(0.5rem, 9vw, 10rem) 0 0 clamp(0.5rem, 9vw, 10rem);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5%;
+  gap: 5%;
+}
+
+.about-cont img {
+  height: 100%;
+  width: 40%;
+}
+
+.about-text {
+  h1 {
+    font-size: clamp(0.3rem, 4.4vw, 10rem);
+  }
+  p {
+    font-size: clamp(0.3rem, 1.83vw, 8rem);
+  }
+}
+
+/* 00000000000000000000000000 About Us End 000000000000000000000000000000000 */
+
+/* 00000000000000000000000000 Contact Us 00000000000000000000000000000000000 */
+
+.contact {
+  height: 100vh;
+  width: 100%;
+  padding: 0 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cont-us {
+  width: 65%;
+  height: 90%;
+  border-radius: 0.5rem;
+  background: #fccab4;
+  padding: 1rem 2rem;
+}
+
+form {
+  height: 100%;
+  width: 100%;
+}
+
+form * {
+  color: rgb(0, 0, 0);
+  outline: none;
+  border: none;
+}
+
+form h1 {
+  font-size: 4rem;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  div {
+    width: 49%;
+    flex-direction: column;
+  }
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+input,
+textarea {
+  display: block;
+  height: 42px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+textarea {
+  height: 40%;
+  display: flex;
+  line-height: 31px;
+  resize: none;
+}
+
+::placeholder {
+  color: #000000b4;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  margin-top: 1rem;
+  width: 100%;
+  background: #6e0c0c;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* 000000000000000000000000000000000000000000 */
+
+.cont-social {
+  width: 32%;
+  height: 90%;
+  border-radius: 0.5rem;
+  background: #fccab4;
+  padding: 1rem 2rem;
+}
+
+.soc-div {
+  h1 {
+    color: #000;
+    font-size: 4rem;
+    margin-bottom: 4%;
+  }
+
+  h4 {
+    color: #000;
+    margin-top: 3%;
+  }
+
+  p {
+    color: #000;
+    b {
+      color: #000;
+    }
+  }
+}
+
+.soc-div div {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  gap: 10%;
+
+  img {
+    border-radius: 4px;
+  }
+}
+
+.cont-social img {
+  position: relative;
+  top: 12%;
+}
+
+/* 00000000000000000000000000 Contact Us End 0000000000000000000000000000000 */
